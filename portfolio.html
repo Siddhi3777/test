@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="portstyle.css" rel="stylesheet" \>
+    <script src="https://kit.fontawesome.com/318437662b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="photo/logo.png" class="logo" height="50px" width="50px">
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Web Developer </p>
+                <h1> Hi, I'm <span>Siddhi</span> Mitake<br> From Kolhapur </h1>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo/sid3.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle"> About Me </h1>
+                    <p class="abc">
+                        Hello, My Self <b>Siddhi Chandrakant Mitake.</b> I am from Kolhapur.
+                        I have done <b> Diploma </b> in <b>electronics and tele communication</b>with <b>87.55%
+                        </b>at Sharad Institute of Technology Polytechnic,Yadrav.
+                        I have done <b> B.tech </b> in <b>electronics and tele communication</b>
+                        with <b>8.89</b>CGPA at Sharad Institute Of Technology College Of
+                        Engineering. Now I am doing <b> Full Stack Web Development Course.</b>
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>JAVA</span><br>App Development Using Java</li>
+                            <li><span>SQL</span><br>Database/Creating Tables</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship</span><br>Datta motor pvt ltd-Electric motor Assembler,Ichalkaranji
+                            </li>
+                            <li><span>Internship</span><br>Ghodawat consumers ltd,Chipri</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017</span><br> 10<sup>th</sup> Saraswati High School, Ichalkaranji</li>
+                            <li><span>2020</span><br>Diploma at SIT Polytechnic,Yadrav</li>
+                            <li><span>2023</span><br>Btech at SITCOE,Yadrav</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span> Diploma-2020</span><br>Ultrasonic height guage </li>
+                            <li><span>B.tech-Third year</span><br>Irrigation system</li>
+                            <li><span>B.tech-2023</span><br>Automatic Damper bucket inspection machine</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle"> My Services </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="photo/java.png">
+                    <div class="layer">
+                        <h3><b>Social Media App / Softwares</b></h3>
+                        <p> Java is a widely-used programming language for coding web applications.
+                            So we can develop different webpages and apps.
+                        </p><a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photo/html1.png">
+                    <div class="layer">
+                        <h3> <b>Websites developing</b> </h3>
+                        <p> HTML defines the structure of your content, CSS determines the style and layout,
+                            and JavaScript makes the content interactive
+                        </p><a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photo/sql.png">
+                    <div class="layer">
+                        <h3><b>Database</b></h3>
+                        <p> SQL is a widely used programming language designed to interface with databases.
+
+                        </p><a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>siddhimitake456@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7448094158</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/_..siddhi31.._?igshid=MzRlODBiNWFlZA=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://t.me/siddhimitake31"><i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/siddhi-mitake-419327251?utm_source=share&utm_campaign=share
+                        _via&utm_content=profile&utm_medium=android_app">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <a href="siddhimitake_ (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+         var sidemenu=document.getElementById("sidemenu");
+         function openmenu(){
+            sidemenu.style.right ="0";
+         }
+         function closemenu(){
+            sidemenu.style.right ="-200px";
+         }
+
+    </script>
+</body>
+
+</html>
