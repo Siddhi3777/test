@@ -47,7 +47,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: blue;
+    background: red;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -117,7 +117,7 @@ nav ul li a:hover::after {
 .tab-titles {
     display: flex;
     margin: 20px 0 40px;
-    color: blue;
+    color: red;
 }
 
 .tab-links {
@@ -292,7 +292,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-    background: blue;
+    background: red;
 }
 
 
@@ -312,7 +312,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-    color: blue;
+    color: red;
     margin-right: 15px;
     font-size: 20px;
 }
@@ -331,13 +331,13 @@ nav ul li a:hover::after {
 }
 
 .social-icons a:hover {
-    color: blue;
+    color: red;
     transform: translateY(-5px);
 }
 
 .btn.btn2 {
     display: inline-block;
-    background: blue;
+    background: red;
 }
 
 .contact-right form {
@@ -378,17 +378,17 @@ nav .fa-solid{
     }
     .header-text h1 {
         font-size: 30px;
-        color: blue;
+        color: red;
     }
 
     nav .fa-solid{
         display: block;
         font-size: 25px;
-        color: blue;
+        color: red;
     }
 
     nav ul{
-        background: blue;
+        background: red;
         position: fixed;
         top: 0;
         right: -200px;
